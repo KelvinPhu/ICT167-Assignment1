@@ -10,7 +10,7 @@ package assignment1;
  * they have in different denominations of coins. The class provides methods to calculate and display the 
  * change to be given for each denomination, as well as retrieve and update the coin amount.
  * 
- * Assumptions/Conditions: The program assumes that the user will input valid data as per the program's
+ * Assumption/Conditions: The program assumes that the user will input valid data as per the program's
  * prompts. The coin values and number of denominations are fixed as per the COIN_VALUES and
  * NUM_COIN_DENOMINATIONS constants.
  */
@@ -84,13 +84,13 @@ public class ChangeC {
     /**
      * Returns the denomination as a string representation.
      * Denominations less than 100 are represented as pence (e.g., 1p, 50p),
-     * while denominations of 100 or greater are represented as pounds (e.g., £1, £2).
+     * while denominations of 100 or greater are represented as pounds (e.g., Â£1, Â£2).
      */
     private String getDenominationString(int denomination) {
         if (denomination < 100) {
             return denomination + "P";
         } else {
-            return "£" + (denomination / 100);
+            return "Â£" + (denomination / 100);
         }
     }
 }
