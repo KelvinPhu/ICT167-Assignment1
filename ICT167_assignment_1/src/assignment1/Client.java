@@ -292,8 +292,8 @@ public class Client {
         System.out.println("10p: " + totalCoin[3]);
         System.out.println("20p: " + totalCoin[4]);
         System.out.println("50p: " + totalCoin[5]);
-        System.out.println("£1: " + totalCoin[6]);
-        System.out.println("£2: " + totalCoin[7]);
+        System.out.println("Â£1: " + totalCoin[6]);
+        System.out.println("Â£2: " + totalCoin[7]);
     }
 
     
