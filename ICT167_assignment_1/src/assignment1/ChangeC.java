@@ -45,8 +45,6 @@ public class ChangeC {
         this.coinAmount = coinAmount;
     }
     
-    
-    
     /**
      * Displays the change breakdown for the given coin amount.
      */
