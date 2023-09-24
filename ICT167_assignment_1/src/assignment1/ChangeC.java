@@ -20,7 +20,6 @@ public class ChangeC {
     private int coinAmount;
     private int[] coinDenomination;
     
-    
     // Constructor
     public ChangeC(String name, int coinAmount) {
         this.name = name;
