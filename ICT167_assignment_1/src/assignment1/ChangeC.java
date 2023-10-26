@@ -58,8 +58,7 @@ public class ChangeC {
         }
     }
 
-    
-    
+
     /**
      * Calculates the change breakdown for the given coin amount.
      * Returns an array representing the number of coins for each denomination.
