@@ -28,20 +28,20 @@ public class ChangeC {
     }
 
     // Getter & Setter
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getCoinAmount() {
         return coinAmount;
     }
 
     public void setCoinAmount(int coinAmount) {
         this.coinAmount = coinAmount;
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
     
     /**
