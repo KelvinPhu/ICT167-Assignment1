@@ -114,7 +114,7 @@ public class Client {
                         System.out.println("Change:");
                         largestAmount.displayChange();
                     }
-                    break;
+                    break;v
 
                 // Menu choice option 4
                 case 4:
